@@ -1,12 +1,12 @@
 @font-face { /*FONT STUFF*/
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");}
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");}
 @font-face {
   font-family: "Oswald";
-  src: url(/assets/fonts/Oswald-VariableFont_wght.ttf) format("truetype");}
+  src: url(./assets/fonts/Oswald-VariableFont_wght.ttf) format("truetype");}
 @font-face {
   font-family: "Earthorbiter";
-  src: url(/assets/fonts/earthorbiter.ttf) format("truetype");}
+  src: url(./assets/fonts/earthorbiter.ttf) format("truetype");}
 /* -------------------------------------------------------------------------- */
 /* TYPING BAR */
 /* -------------------------------------------------------------------------- */
