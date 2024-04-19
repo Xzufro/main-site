@@ -7,6 +7,14 @@
 @font-face {
   font-family: "Earthorbiter";
   src: url(./assets/fonts/earthorbiter.ttf) format("truetype");}
+@font-face {
+  font-family: "SF Pro Light";
+  src: url(./assets/fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+  font-family: "SF Pro";
+  src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
+}
 /* -------------------------------------------------------------------------- */
 /* TYPING BAR */
 /* -------------------------------------------------------------------------- */
@@ -121,7 +129,8 @@ body {
 }
 .ts-text {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  font-family: "SF Pro", sans-serif;
   padding-top: 40px;
   font-size: 25px;
 }
@@ -156,6 +165,31 @@ body {
   font-family: Earthorbiter, sans-serif;
 }
 
+
+
+/* ========================================================================== */
+/* EXPERIMENTS */
+/* ========================================================================== */
+.experiments {
+  justify-content: center;
+}
+
+.experiment {
+  text-align: center;
+  display: flex;
+}
+
+h3 {
+  font-family: "SF Pro", sans-serif;
+  font-size: 4vh;
+}
+#exp {
+  width: 30vh;
+  height: 30vh;
+  margin-right: 10vw;
+}
+
+
 /* ========================================================================== */
 /* FOOTER */
 /* ========================================================================== */
@@ -163,7 +197,9 @@ body {
 /*GRADIENT XZUFRO.DEV*/
 .gradient-text {
   background: url(assets/img/gradient.png); /* Define the gradient */
+  font-family: "SF Pro", sans-serif; 
   background-repeat: no-repeat;
+  font-size: 10vh;
   background-position: center;
   background-size: cover;
   margin-top: 5vh;
